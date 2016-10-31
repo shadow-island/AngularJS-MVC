@@ -1,0 +1,15 @@
+<html ng-app>
+<head>
+<title>AngularJs MVC</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+<script src="controller.js"></script>
+</head>
+<body ng-controller="StudyMemberListCtrl">
+<ul>
+<li ng-repeat="member in members">
+{{member.name}}
+<p>{{member.message}}</p>
+</li>
+</ul>
+</body>
+</html>
